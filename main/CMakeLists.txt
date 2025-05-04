@@ -1,4 +1,4 @@
 idf_component_register(SRCS "main.c"
                        INCLUDE_DIRS "."
-                       PRIV_REQUIRES bmp280)
+                       PRIV_REQUIRES sdmmc driver fatfs spi_flash bmp280)
 
